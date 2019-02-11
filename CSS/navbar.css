@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: "Candara", serif;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(32, 33, 35);
+    position: fixed;
+}
+.navbar a{
+    transition: 0.5s;
+}
+ .navbar a :hover{
+    color: black;
+    }
+.logo {
+    float: left;
+}
+.navbarText{
+    float: right;
+}
+.navbarButton {
+    font-size: 20.8px;
+    float: left;
+    color:gray;
+    margin: 19.2px;
+    text-decoration: none;
+}
