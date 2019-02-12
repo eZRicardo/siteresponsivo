@@ -7,18 +7,17 @@ body{
     width: 100%;
     background-color: rgb(32, 33, 35);
     position: fixed;
+    margin-top: 1%;
 }
-.navbar a{
-    transition: 0.5s;
-}
- .navbar a :hover{
-    color: black;
+ .navbarText :hover{
+    color: white;
     }
 .logo {
     float: left;
 }
 .navbarText{
     float: right;
+    transition: 0.5s;
 }
 .navbarButton {
     font-size: 20.8px;
