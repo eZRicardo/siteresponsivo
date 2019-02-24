@@ -24,7 +24,7 @@ body{
     transition: 0.5s;
 }
 .navbarButton {
-    color:white!important;
+    background-color:white!important;
 }
 .icons{
     color: white;  
