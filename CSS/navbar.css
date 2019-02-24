@@ -5,10 +5,10 @@ body{
 .navbar {
     height: 80px;
     width: 100%;
-    background-color: rgb(32, 33, 35);
-    display: flex;
-    position: fixed;
+    background-color: rgb(32, 33, 35)!important;
+    position: fixed!important;
 }
+
 .navbar h1{
     justify-content: center;
 }
@@ -19,17 +19,14 @@ body{
     float: left;
 }
 .navbarText{
+    color: white!important;
     float: right!important;
     transition: 0.5s;
 }
 .navbarButton {
-    font-size: 20.8px;
-    float: left;
-    color:white;
-    margin: 19.2px;
-    text-decoration: none;
+    color:white!important;
 }
 .icons{
-    color: white;
-    float: right
+    color: white;  
+    text-decoration: none;
 }

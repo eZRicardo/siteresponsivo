@@ -27,31 +27,32 @@
 
 <body>
     <div class="box">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                     <a class="logo" href="#home"><img src="Imagens/logo.png"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler navbarButton" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link navbarText" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link navbarText" href="#modalidade">Modalidades</a>
                         </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link navbarText" href="#planos">Planos</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link navbarText" href="#fale">Fale Conosco</a>
+                                  </li>
                       </ul>
+                      <div class="icons">
+                            <a href="#fale"><i class="fa fa-phone"></i></a>
+                           <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                   </nav>
         <!-- <div class="navbar">
@@ -89,11 +90,13 @@
         </div>
     </div>
         <div id="#modalidades">
-
+                <iframe src="HTML/Modalidades.html"
+                frameborder="0" style="border:0" allowfullscreen scrolling="no"></iframe>
         </div>
 
         <div id="#planos">
-
+                <iframe src="HTML/planos.html"
+                frameborder="0" style="border:0" allowfullscreen scrolling="no"></iframe>
         </div>
         <div id="#fale">
                 <iframe src="HTML/fale.html"
