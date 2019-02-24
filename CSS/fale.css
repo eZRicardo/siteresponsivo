@@ -1,6 +1,6 @@
-.boxF{
+.box{
     width: 100%;
-    height: 900px;
+    height: 625px;
 }
 .contact{
     display: flex;
@@ -8,6 +8,7 @@
     flex-direction: column;
     width: 25%;
     float: right;
+    margin-top: 5%;
 }
 .contactButton{
     width: 20%;
@@ -27,14 +28,20 @@
     border-radius: 4px;
     padding: 10px 10px;
 }
+.fundoImg{
+    width: 100%;
+    height: 625px;
+    background-image: url("../Imagens/haltere-620x330.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .fundoCor{
     width: 100%;
     height: 100%;
-    background-color: rgb(87, 87, 89);
+    background-color: rgba(87, 87, 89, 0.63);
 }
-.fundoImg{
-    width: 100%;
-    height: 100%;
-    background-image: url("../Imagens/haltere-620x330.jpg");
-    background-position: center;
-}
+ iframe{
+    width: 500px;
+    height: 350px; 
+    margin-left: 7%;
+ }

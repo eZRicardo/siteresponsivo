@@ -1,0 +1,21 @@
+.fundoImg{
+    width: 100%;
+    height: 625px;
+    background-image: url("../Imagens/danielle-cerullo-782570-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fundoCor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(87, 87, 89, 0.63);
+}
+.carousel-inner{
+    opacity: 0.5;
+}
+iframe{
+    width: 100%;
+    height: 625px;
+    overflow: hidden;
+    border: none;
+}

@@ -1,19 +1,21 @@
-.boxP{
+.box{
     width: 100%;
-    height: 900px;
+    height: 625px;
 }
-.fundo{
+
+.fundoImg{
     width: 100%;
-    height: 100%;
+    height: 625px;
+    background-image: url("../Imagens/danielle-cerullo-782570-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .fundoCor{
     width: 100%;
     height: 100%;
-    background-color: rgb(87, 87, 89);
+    background-color: rgba(87, 87, 89, 0.63);
 }
-.fundoImg{
-    width: 100%;
-    height: 100%;
-    background-image: url("../Imagens/danielle-cerullo-782570-unsplash.jpg");
-    background-position: center;
+table{
+    color: white;
+    border: solid 1px white;
 }

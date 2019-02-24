@@ -1,28 +1,35 @@
 body{
-    margin: 0px;
     font-family: "Candara", serif;
+    margin: 0%;
 }
 .navbar {
     height: 80px;
     width: 100%;
     background-color: rgb(32, 33, 35);
+    display: flex;
     position: fixed;
-    margin-top: 1%;
+}
+.navbar h1{
+    justify-content: center;
 }
  .navbarText :hover{
-    color: white;
+    color:rgb(80, 49, 49);
     }
 .logo {
     float: left;
 }
 .navbarText{
-    float: right;
+    float: right!important;
     transition: 0.5s;
 }
 .navbarButton {
     font-size: 20.8px;
     float: left;
-    color:gray;
+    color:white;
     margin: 19.2px;
     text-decoration: none;
+}
+.icons{
+    color: white;
+    float: right
 }

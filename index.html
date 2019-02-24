@@ -1,22 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Muscle GYM</title>
     <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap-grid.css">
+    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-reboot.css">
+    <link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
+
+    <link rel="stylesheet" href="JS/bootstrap.bundle.js">
+    <link rel="stylesheet" href="JS/bootstrap.js">
+    <link rel="stylesheet" href="JS/bootstrap.min.js">
+    <link rel="stylesheet" href="JS/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="JS/jquery-3.3.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
 </head>
+
 <body>
     <div class="box">
-    <div class="navbar">
-        <!--Navbar-->
-        <a href="index.html" class="logo"><img src="Imagens/logo.png"></a>
-        <div class="navbarText">
-        <a href="index.html" class="navbarButton">Home</a>
-        <a href="HTML/modalidades.html" class="navbarButton">Modalidades</a>
-        <a href="HTML/planos.html" class="navbarButton">Planos</a>
-        <a href="HTML/fale.html" class="navbarButton">Fale Conosco</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="logo" href="#home"><img src="Imagens/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+        <!-- <div class="navbar">
+            Navbar
+            <a href="#home" class="logo">
+                <img src="Imagens/logo.png">
+            </a>
+            <div class="icons">
+                    <a href="#fale"><i class="fa fa-phone"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+            <div class="navbarText">
+                <a href="#home" class="navbarButton">Home</a>
+                <a href="#modalidades" class="navbarButton">Modalidades</a>
+                <a href="#planos" class="navbarButton">Planos</a>
+                <a href="#fale" class="navbarButton">Fale Conosco</a>
+            </div>
+        </div> -->
+        <div class="fundoCor" id="#home">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img class="d-block w-100" src="Imagens/hipcravo-1277616-unsplash.jpg" alt="Third slide">
+                            </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="Imagens/victor-freitas-604847-unsplash.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="Imagens/i-yunmai-617613-unsplash.jpg" alt="Third slide">
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-    </div>
-</div>
+        <div id="#modalidades">
+
+        </div>
+
+        <div id="#planos">
+
+        </div>
+        <div id="#fale">
+                <iframe src="HTML/fale.html"
+                frameborder="0" style="border:0" allowfullscreen scrolling="no"></iframe>
+        </div>
 </body>
 </html>
